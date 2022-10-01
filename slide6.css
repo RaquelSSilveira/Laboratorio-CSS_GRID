@@ -1,0 +1,76 @@
+.caixaconteiner{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+
+}
+.caixaA{
+    background-color: darkgrey;
+    border: 1px solid black;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.caixaB{
+    background-color: darkgray;
+    border: 1px solid black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.caixaC{
+    background-color: white;
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.caixaD{
+    background-color: darkgray;
+    border: 1px solid black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.caixaE{
+    background-color: darkgray;
+    border: 1px solid black;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.caixaG{
+    background-color: darkgray;
+    border: 1px solid black;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.caixaF{
+    background-color: blue;
+    border: 1px solid black;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end:5;
+}
+.caixaH{
+    background-color: blue;
+    border: 1px solid black;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
